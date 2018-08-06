@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title> My Mini Calculator</title>
+        <link rel="stylesheet" type="text/css" href="calcstyle.css" />
+    </head> 
+
+    <body>        
+    <form name="myCalc" action="doMath.php" method="post">
+        <b>Input value A: </b><input type="integer" name="inputA" id="inputA" placeholder ="Please enter a number."><br/>
+        <b>Select math function: </b>
+        <select name="operation">
+            <option value="addition"> + </option>
+            <option value="subtract"> - </option>
+            <option value="multiply"> * </option>
+            <option value="division"> / </option>
+            <option value="modulus"> % </option>
+        </select>
+        <br/>
+        <b>Input value B: </b><input type="integer" name= "inputB" id="inputB" placeholder="Please enter a number.">
+        <br/>
+        <br/>
+        <input type="submit" value="Submit">
+        <input type="reset">
+        </form>
+
+        
+
+
+
+
+
+
+</html>
